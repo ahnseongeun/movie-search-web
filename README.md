@@ -17,6 +17,8 @@ nuxtjs는 왜 build를 통한 hosting방식이 아니라 웹서버를 띄우는 
 그 이유는 -> server-middleware 같이 서버에서 데이터를 받아와야한다.
 뭔가 만드는 환경??
 
+npm i -D cypress
+
 ## Build Setup
 
 ```bash

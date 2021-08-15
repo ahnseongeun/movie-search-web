@@ -112,8 +112,10 @@ export default {
                 this.imageLoading = false
             })
             return src
-        },
-        head() {
+        }
+       
+    },
+     head() {
             console.log(this.theMovie)
             return  {
                 meta: [
@@ -126,7 +128,6 @@ export default {
                 ]
             }
         }
-    }
 }
 </script>
 

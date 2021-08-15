@@ -114,6 +114,7 @@ export default {
             return src
         },
         head() {
+            console.log(this.theMovie)
             return  {
                 meta: [
                     { hid: 'og:type' , property: 'og:type' , content: 'website' },

@@ -12,6 +12,11 @@ main 페이지에서 타고 넘어가는 것은 클라이언트에서 넘어가�
 fetch Movie 함수에서    
 //client side rendering은 '/api/movie -> '주소/api/movie''    
 //server side rendering은 '/api/movie -> '/api/movie' -> 문제 발생   
+
+nuxtjs는 왜 build를 통한 hosting방식이 아니라 웹서버를 띄우는 SSR방식인지?
+그 이유는 -> server-middleware 같이 서버에서 데이터를 받아와야한다.
+뭔가 만드는 환경??
+
 ## Build Setup
 
 ```bash

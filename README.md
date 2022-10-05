@@ -1,23 +1,6 @@
-# movie-app-next
+# movie-search-web
 
-npm i -D @nuxtjs/dotenv @nuxtjs/style-resources @babel/plugin-transform-runtime express    
-
-npm i -> package에 있는 설치안된 파일들 설치 
-
-
-nuxtjs
-클라이언트 , 서버 사이드 둘다 제공   
-main 페이지에서 타고 넘어가는 것은 클라이언트에서 넘어가는 방식이다. 그래서 잘나온다.    하지만 영화 상세페이지를 바로 url을 입력하면 잘안나온다.    
-왜??     
-fetch Movie 함수에서    
-//client side rendering은 '/api/movie -> '주소/api/movie''    
-//server side rendering은 '/api/movie -> '/api/movie' -> 문제 발생   
-
-nuxtjs는 왜 build를 통한 hosting방식이 아니라 웹서버를 띄우는 SSR방식인지?
-그 이유는 -> server-middleware 같이 서버에서 데이터를 받아와야한다.
-뭔가 만드는 환경??
-
-npm i -D cypress
+https://ahnbat-nuxt-movie-app.herokuapp.com/
 
 ## Build Setup
 

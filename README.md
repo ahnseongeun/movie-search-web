@@ -2,6 +2,9 @@
 
 https://ahnbat-nuxt-movie-app.herokuapp.com/
 
+## Description
+### Nuxt.js를 사용한 영화 찾기 웹 사이트입니다.
+
 ## Build Setup
 
 ```bash
